@@ -1,0 +1,3 @@
+C:/Users/Denis/Desktop/C++/labwork-11-Clawf1/tests/cmake-build-debug/CMakeFiles/tests_algorithms.dir
+C:/Users/Denis/Desktop/C++/labwork-11-Clawf1/tests/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Denis/Desktop/C++/labwork-11-Clawf1/tests/cmake-build-debug/CMakeFiles/rebuild_cache.dir

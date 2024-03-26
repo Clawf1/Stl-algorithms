@@ -1,0 +1,51 @@
+"C:\Users\Denis\AppData\Local\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Users/Denis/AppData/Local/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\Denis\Desktop\C++\labwork-11-Clawf1\tests -B C:\Users\Denis\Desktop\C++\labwork-11-Clawf1\tests\cmake-build-debug
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[0/8] Performing download step (git clone) for 'googletest-populate'
+Cloning into 'googletest-src'...
+fatal: unable to access 'https://github.com/google/googletest.git/': Could not resolve host: github.com
+Cloning into 'googletest-src'...
+fatal: unable to access 'https://github.com/google/googletest.git/': Could not resolve host: github.com
+Cloning into 'googletest-src'...
+fatal: unable to access 'https://github.com/google/googletest.git/': Could not resolve host: github.com
+-- Had to git clone more than once: 3 times.
+CMake Error at googletest-subbuild/googletest-populate-prefix/tmp/googletest-populate-gitclone.cmake:39 (message):
+  Failed to clone repository: 'https://github.com/google/googletest.git'
+
+
+FAILED: googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download C:/Users/Denis/Desktop/C++/labwork-11-Clawf1/tests/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download 
+cmd.exe /C "cd /D C:\Users\Denis\Desktop\C++\labwork-11-Clawf1\tests\cmake-build-debug\_deps && "C:\Users\Denis\AppData\Local\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -P C:/Users/Denis/Desktop/C++/labwork-11-Clawf1/tests/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/tmp/googletest-populate-gitclone.cmake && "C:\Users\Denis\AppData\Local\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/Denis/Desktop/C++/labwork-11-Clawf1/tests/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download"
+ninja: build stopped: subcommand failed.
+
+CMake Error at C:/Users/Denis/AppData/Local/JetBrains/CLion 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/FetchContent.cmake:1088 (message):
+  Build step for googletest failed: 1
+Call Stack (most recent call first):
+  C:/Users/Denis/AppData/Local/JetBrains/CLion 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/FetchContent.cmake:1217:EVAL:2 (__FetchContent_directPopulate)
+  C:/Users/Denis/AppData/Local/JetBrains/CLion 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/FetchContent.cmake:1217 (cmake_language)
+  C:/Users/Denis/AppData/Local/JetBrains/CLion 2022.2.4/bin/cmake/win/share/cmake-3.23/Modules/FetchContent.cmake:1260 (FetchContent_Populate)
+  CMakeLists.txt:8 (FetchContent_MakeAvailable)
+
+
+CMake Warning (dev) in CMakeLists.txt:
+  No cmake_minimum_required command is present.  A line of code such as
+
+    cmake_minimum_required(VERSION 3.23)
+
+  should be added at the top of the file.  The version specified may be lower
+  if you wish to support older CMake versions for this project.  For more
+  information run "cmake --help-policy CMP0000".
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/Denis/Desktop/C++/labwork-11-Clawf1/tests/cmake-build-debug/CMakeFiles/CMakeOutput.log".
